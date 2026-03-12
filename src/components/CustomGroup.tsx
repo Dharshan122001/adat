@@ -6,10 +6,13 @@ import {
 } from "@jsonforms/material-renderers";
 import AccordionGroupRenderer, {
   AccordionGroupTester,
-} from "../Renderer/AccordionGroupRenderer";
+} from "../Renderer/AccordionGroupRenderer.tsx";
 import AutoResizeTextAreaControl, {
   autoResizeTextAreaTester,
 } from "../Renderer/AutoResizeTextAreaControl.tsx";
+import AutoResizeTextAreaCell, {
+  autoResizeTextAreaCellTester,
+} from "../Renderer/AutoResizeTextAreaCell.tsx";
 import testSchema from "../Schemas/JsonSchema.json";
 import testUischema from "../Schemas/JsonUiSchema.json";
 import testData from "../Schemas/JsonData.ts";
@@ -19,6 +22,11 @@ const renderers = [
   // register custom renderers
   { tester: autoResizeTextAreaTester, renderer: AutoResizeTextAreaControl },
   { tester: AccordionGroupTester, renderer: AccordionGroupRenderer },
+];
+
+const cells = [
+  ...materialCells,
+  { tester: autoResizeTextAreaCellTester, cell: AutoResizeTextAreaCell },
 ];
 
 export const CustomGroup: FC = () => {
@@ -31,7 +39,7 @@ export const CustomGroup: FC = () => {
         uischema={testUischema}
         data={data}
         renderers={renderers}
-        cells={materialCells}
+        cells={cells}
         onChange={({ data }) => setData(data)}
       />
     </div>

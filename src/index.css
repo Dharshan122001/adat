@@ -6,8 +6,64 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Ensure jsonforms tables align from the top to meet user requirements */
+.MuiTableCell-root {
+  vertical-align: top !important;
+  border-right: 1px solid #ddd;
+}
+
+/* Remove right border from the last cell in any row */
+.MuiTableCell-root:last-child {
+  border-right: none;
+}
+
+/* Ensure the title area (like 'Details') stays white */
+.MuiTableHead-root .MuiTableRow-root:not(:last-child) .MuiTableCell-root {
+  background-color: white !important;
+  color: black !important;
+  border-right: none !important;
+}
+
+/* Style ONLY the actual column headers */
+.MuiTableHead-root .MuiTableRow-root:last-child .MuiTableCell-root {
+  background-color: #002C6E !important;
+  color: white !important;
+  font-weight: 600 !important;
+  border-right: 1px solid rgba(255,255,255,0.3) !important;
+}
+
+/* Remove the border from the very last column header */
+.MuiTableHead-root .MuiTableRow-root:last-child .MuiTableCell-root:last-child {
+  border-right: none !important;
+}
+
+/* Make table columns properly spaced and formatted */
+.MuiTable-root {
+  table-layout: fixed;
+  width: 100%;
+}
+
+/* Make the last column (the delete button column) fit its content */
+.MuiTableHead-root .MuiTableRow-root:last-child .MuiTableCell-root:last-child,
+.MuiTableBody-root .MuiTableRow-root .MuiTableCell-root:last-child {
+  width: 50px; /* Small fixed width for the trash icon */
+  text-align: center;
+}
+
+.custom-textarea-cell {
+  display: block;
 }

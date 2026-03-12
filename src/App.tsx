@@ -3,7 +3,7 @@ import "./App.css";
 import { CustomGroup } from "./components/CustomGroup.tsx";
 import AccordionGroupRenderer, {
   AccordionGroupTester,
-} from "./Renderer/AccordionGroupRenderer";
+} from "./Renderer/AccordionGroupRenderer.tsx";
 const renderers = [
   ...materialRenderers,
   //register custom renderers

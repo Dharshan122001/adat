@@ -9,25 +9,28 @@ import {
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import React from 'react';
 import { withJsonFormsLayoutProps } from '@jsonforms/react';
-import { rankWith, uiTypeIs } from '@jsonforms/core';
+import { LayoutProps, rankWith, uiTypeIs } from '@jsonforms/core';
 
-const AccordionGroupRenderer = (props) => {
+const AccordionGroupRenderer = (props: LayoutProps) => {
   const { uischema, schema, path, visible, renderers } = props;
+  
+  // Cast uischema to any to access custom elements and labels since we know they exist at runtime
+  const ui = uischema as any;
 
   const layoutProps = {
-    elements: uischema.elements,
+    elements: ui.elements,
     schema: schema,
     path: path,
-    direction: 'column',
+    direction: 'column' as 'column', // explicitly set as 'column' literal
     visible: visible,
     uischema: uischema,
     renderers: renderers,
   };
   return (
-    <Box sx={{ display: { xs: 'none', sm: 'block' } }} className="collapsible-group">
+    <Box sx={{ display: { xs: 'none', sm: 'block',padding:"4px 4px",margin:"5px 5px",borderRadius:"14px" } }} className="collapsible-group">
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography>{uischema.label}</Typography>
+          <Typography>{ui.label}</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <MaterialLayoutRenderer {...layoutProps} />
