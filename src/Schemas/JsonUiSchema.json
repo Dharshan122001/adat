@@ -1,0 +1,360 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "AccordionGroup",
+      "label": "1. Ownership and governance structures",
+      "elements": [
+        {
+          "type": "AccordionGroup",
+          "label": "Question",
+          "elements": [
+            {
+              "type": "Control",
+              "scope": "#/properties/ownership/properties/question1/properties/details",
+              "label": "Details",
+              "options": {
+                "readOnly": true,
+                "multi": true,
+                "rows": 12
+              }
+            },
+            {
+              "type": "Control",
+              "scope": "#/properties/ownership/properties/question1/properties/ownershipTable",
+              "label": "Document below the Shareholders / Owners & their percentile in the Entity "
+            }
+          ]
+        },
+        {
+          "type": "AccordionGroup",
+          "label": "Question",
+          "elements": [
+            {
+              "type": "Control",
+              "scope": "#/properties/ownership/properties/question2/properties/details",
+              "label": "Details",
+              "options": {
+                "readOnly": true,
+                "multi": true,
+                "rows": 12
+              }
+            },
+            {
+              "type": "Control",
+              "scope": "#/properties/ownership/properties/question2/properties/governanceTable",
+              "label": "Document below the Shareholders / Owners & their percentile in the Entity "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "AccordionGroup",
+      "label": "2. Group structure",
+      "elements": [
+        {
+          "type": "AccordionGroup",
+          "label": "Question",
+          "elements": [
+            {
+              "type": "Control",
+              "scope": "#/properties/groupStructure/properties/question1/properties/details",
+              "label": "Details",
+              "options": {
+                "readOnly": true,
+                "multi": true,
+                "rows": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "AccordionGroup",
+          "label": "Question",
+          "elements": [
+            {
+              "type": "Control",
+              "scope": "#/properties/groupStructure/properties/question2/properties/details",
+              "label": "Details",
+              "options": {
+                "readOnly": true,
+                "multi": true,
+                "rows": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "AccordionGroup",
+          "label": "Question",
+          "elements": [
+            {
+              "type": "Control",
+              "scope": "#/properties/groupStructure/properties/question3/properties/details",
+              "label": "Details",
+              "options": {
+                "readOnly": true,
+                "multi": true,
+                "rows": 12
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "AccordionGroup",
+      "label": "3. Understanding those charged with governance (TCWG)",
+      "elements": [
+        {
+          "type": "AccordionGroup",
+          "label": "Question",
+          "elements": [
+            {
+              "type": "Control",
+              "scope": "#/properties/tcwg/properties/question1/properties/details",
+              "label": "Details",
+              "options": {
+                "readOnly": true,
+                "multi": true,
+                "rows": 12
+              }
+            },
+            {
+              "type": "Control",
+              "scope": "#/properties/tcwg/properties/question1/properties/memberTable",
+              "label": "Document the details of TCWG members- Name, Designation, Experience and Stature, as below:  "
+            }
+          ]
+        },
+        {
+          "type": "AccordionGroup",
+          "label": "Question",
+          "elements": [
+            {
+              "type": "Control",
+              "scope": "#/properties/tcwg/properties/question2/properties/details",
+              "label": "Details",
+              "options": {
+                "readOnly": true,
+                "multi": true,
+                "rows": 12
+              }
+            },
+            {
+              "type": "Control",
+              "scope": "#/properties/tcwg/properties/question2/properties/memberTable",
+              "label": "Who is the Management? Capture details of Entity Personnel, charged with executive and operational responsibility for the conduct of the Entity’s operations "
+            },
+            {
+              "type": "Control",
+              "scope": "#/properties/tcwg/properties/question2/properties/committees",
+              "label": "TCWG Committees (CSV format 2)"
+            }
+          ]
+        },
+        {
+          "type": "AccordionGroup",
+          "label": "Question",
+          "elements": [
+            {
+              "type": "Control",
+              "scope": "#/properties/tcwg/properties/question3/properties/details",
+              "label": "Details",
+              "options": {
+                "readOnly": true,
+                "multi": true,
+                "rows": 12
+              }
+            },
+            {
+              "type": "Control",
+              "scope": "#/properties/tcwg/properties/question3/properties/memberTable",
+              "label": "Document the details of TCWG members- Name, Designation, Experience and Stature, as below:  "
+            }
+          ]
+        },
+        {
+          "type": "AccordionGroup",
+          "label": "Question",
+          "elements": [
+            {
+              "type": "Control",
+              "scope": "#/properties/tcwg/properties/question4/properties/details",
+              "label": "Details",
+              "options": {
+                "readOnly": true,
+                "multi": true,
+                "rows": 12
+              }
+            },
+            {
+              "type": "Control",
+              "scope": "#/properties/tcwg/properties/question4/properties/memberTable",
+              "label": "Document the details of TCWG members- Name, Designation, Experience and Stature, as below:  "
+            }
+          ]
+        },
+        {
+          "type": "AccordionGroup",
+          "label": "Question",
+          "elements": [
+            {
+              "type": "Control",
+              "scope": "#/properties/tcwg/properties/question5/properties/details",
+              "label": "Details",
+              "options": {
+                "readOnly": true,
+                "multi": true,
+                "rows": 12
+              }
+            },
+            {
+              "type": "Control",
+              "scope": "#/properties/tcwg/properties/question5/properties/memberTable",
+              "label": "Document the details of TCWG members- Name, Designation, Experience and Stature, as below:  "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "AccordionGroup",
+      "label": "4. Understanding the management",
+      "elements": [
+        {
+          "type": "AccordionGroup",
+          "label": "Question",
+          "elements": [
+            {
+              "type": "Control",
+              "scope": "#/properties/management/properties/question1/properties/details",
+              "label": "Details",
+              "options": {
+                "readOnly": true,
+                "multi": true,
+                "rows": 12
+              }
+            },
+            {
+              "type": "Control",
+              "scope": "#/properties/management/properties/question1/properties/managementTable",
+              "label": "Who is the Management? Capture details of Entity Personnel, charged with executive and operational responsibility for the conduct of the Entity’s operations "
+            }
+          ]
+        },
+        {
+          "type": "AccordionGroup",
+          "label": "Question",
+          "elements": [
+            {
+              "type": "Control",
+              "scope": "#/properties/management/properties/question2/properties/details",
+              "label": "Details",
+              "options": {
+                "readOnly": true,
+                "multi": true,
+                "rows": 12
+              }
+            },
+            {
+              "type": "Control",
+              "scope": "#/properties/management/properties/question2/properties/managementTable",
+              "label": "Who is the Management? Capture details of Entity Personnel, charged with executive and operational responsibility for the conduct of the Entity’s operations",
+              "options": {
+                "rows": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "AccordionGroup",
+          "label": "Question",
+          "elements": [
+            {
+              "type": "Control",
+              "scope": "#/properties/management/properties/question3/properties/details",
+              "label": "Details",
+              "options": {
+                "readOnly": true,
+                "multi": true,
+                "rows": 12
+              }
+            },
+            {
+              "type": "Control",
+              "scope": "#/properties/management/properties/question3/properties/managementTable",
+              "label": "Who is the Management? Capture details of Entity Personnel, charged with executive and operational responsibility for the conduct of the Entity’s operations",
+              "options": {
+                "rows": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "AccordionGroup",
+          "label": "Question",
+          "elements": [
+            {
+              "type": "Control",
+              "scope": "#/properties/management/properties/question4/properties/details",
+              "label": "Details",
+              "options": {
+                "readOnly": true,
+                "multi": true,
+                "rows": 12
+              }
+            },
+            {
+              "type": "Control",
+              "scope": "#/properties/management/properties/question4/properties/managementTable",
+              "label": "Who is the Management? Capture details of Entity Personnel, charged with executive and operational responsibility for the conduct of the Entity’s operations",
+              "options": {
+                "rows": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "AccordionGroup",
+      "label": "5. Recent changes in BoD/TCWG/KMP",
+      "elements": [
+        {
+          "type": "AccordionGroup",
+          "label": "Question",
+          "elements": [
+            {
+              "type": "Control",
+              "scope": "#/properties/recentChanges/properties/question1/properties/details",
+              "label": "Details",
+              "options": {
+                "readOnly": true,
+                "multi": true,
+                "rows": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "AccordionGroup",
+          "label": "Question",
+          "elements": [
+            {
+              "type": "Control",
+              "scope": "#/properties/recentChanges/properties/question2/properties/details",
+              "label": "Details",
+              "options": {
+                "readOnly": true,
+                "multi": true,
+                "rows": 12
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

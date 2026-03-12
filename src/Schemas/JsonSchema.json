@@ -1,0 +1,843 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "ownership": {
+      "type": "object",
+      "properties": {
+        "question1": {
+          "type": "object",
+          "title": "Question",
+          "properties": {
+            "details": {
+              "type": "array",
+              "title": "Details",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "particulars": {
+                    "type": "string",
+                    "title": "Particulars"
+                  },
+                  "guidance": {
+                    "type": "string",
+                    "title": "Guidance"
+                  },
+                  "response": {
+                    "type": "string",
+                    "title": "Response"
+                  }
+                }
+              }
+            },
+            "ownershipTable": {
+              "type": "array",
+              "title": "Ownership / Shareholders",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "slNo": {
+                    "type": "number",
+                    "title": "Sl. No"
+                  },
+                  "shareholder": {
+                    "type": "string",
+                    "title": "Name of Shareholder / Owner"
+                  },
+                  "group": {
+                    "type": "string",
+                    "title": "Group (if any)"
+                  },
+                  "percentage": {
+                    "type": "number",
+                    "title": "Percentage"
+                  },
+                  "specificTerms": {
+                    "type": "string",
+                    "title": "Specific terms of the agreement"
+                  },
+                  "location": {
+                    "type": "string",
+                    "title": "Location"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "question2": {
+          "type": "object",
+          "title": "Question",
+          "properties": {
+            "details": {
+              "type": "array",
+              "title": "Details",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "particulars": {
+                    "type": "string",
+                    "title": "Particulars"
+                  },
+                  "guidance": {
+                    "type": "string",
+                    "title": "Guidance"
+                  },
+                  "response": {
+                    "type": "string",
+                    "title": "Response"
+                  }
+                }
+              }
+            },
+            "governanceTable": {
+              "type": "array",
+              "title": "Governance Structure",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "slNo": {
+                    "type": "number",
+                    "title": "Sl. No"
+                  },
+                  "shareholder": {
+                    "type": "string",
+                    "title": "Name of Shareholder / Owner"
+                  },
+                  "group": {
+                    "type": "string",
+                    "title": "Group (if any)"
+                  },
+                  "percentage": {
+                    "type": "number",
+                    "title": "Percentage"
+                  },
+                  "specificTerms": {
+                    "type": "string",
+                    "title": "Specific terms of the agreement"
+                  },
+                  "location": {
+                    "type": "string",
+                    "title": "Location"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "groupStructure": {
+      "type": "object",
+      "properties": {
+        "question1": {
+          "type": "object",
+          "title": "Question",
+          "properties": {
+            "details": {
+              "type": "array",
+              "title": "Details",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "particulars": {
+                    "type": "string",
+                    "title": "Particulars"
+                  },
+                  "guidance": {
+                    "type": "string",
+                    "title": "Guidance"
+                  },
+                  "response": {
+                    "type": "string",
+                    "title": "Response"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "question2": {
+          "type": "object",
+          "title": "Question",
+          "properties": {
+            "details": {
+              "type": "array",
+              "title": "Details",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "particulars": {
+                    "type": "string",
+                    "title": "Particulars"
+                  },
+                  "guidance": {
+                    "type": "string",
+                    "title": "Guidance"
+                  },
+                  "response": {
+                    "type": "string",
+                    "title": "Response"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "question3": {
+          "type": "object",
+          "title": "Question",
+          "properties": {
+            "details": {
+              "type": "array",
+              "title": "Details",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "particulars": {
+                    "type": "string",
+                    "title": "Particulars"
+                  },
+                  "guidance": {
+                    "type": "string",
+                    "title": "Guidance"
+                  },
+                  "response": {
+                    "type": "string",
+                    "title": "Response"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tcwg": {
+      "type": "object",
+      "properties": {
+        "question1": {
+          "type": "object",
+          "title": "Question",
+          "properties": {
+            "details": {
+              "type": "array",
+              "title": "Details",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "particulars": {
+                    "type": "string",
+                    "title": "Particulars"
+                  },
+                  "guidance": {
+                    "type": "string",
+                    "title": "Guidance"
+                  },
+                  "response": {
+                    "type": "string",
+                    "title": "Response"
+                  }
+                }
+              }
+            },
+            "memberTable": {
+              "type": "array",
+              "title": "TCWG Members",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "slNo": {
+                    "type": "number",
+                    "title": "Sl. No"
+                  },
+                  "name": {
+                    "type": "string",
+                    "title": "Name of TCWG Member"
+                  },
+                  "designation": {
+                    "type": "string",
+                    "title": "Designation"
+                  },
+                  "committee": {
+                    "type": "string",
+                    "title": "Name of the relevant Committee of the Board of Directors to which this person is a member"
+                  },
+                  "qualificationExperience": {
+                    "type": "string",
+                    "title": "Qualification and Experience"
+                  },
+                  "boardPositions": {
+                    "type": "string",
+                    "title": "Details of Board and Committee positions held in other companies"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "question2": {
+          "type": "object",
+          "title": "Question",
+          "properties": {
+            "details": {
+              "type": "array",
+              "title": "Details",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "particulars": {
+                    "type": "string",
+                    "title": "Particulars"
+                  },
+                  "guidance": {
+                    "type": "string",
+                    "title": "Guidance"
+                  },
+                  "response": {
+                    "type": "string",
+                    "title": "Response"
+                  }
+                }
+              }
+            },
+            "memberTable": {
+              "type": "array",
+              "title": "TCWG Members",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "slNo": {
+                    "type": "number",
+                    "title": "Sl. No"
+                  },
+                  "name": {
+                    "type": "string",
+                    "title": "Name of TCWG Member"
+                  },
+                  "designation": {
+                    "type": "string",
+                    "title": "Designation"
+                  },
+                  "committee": {
+                    "type": "string",
+                    "title": "Name of the relevant Committee of the Board of Directors to which this person is a member"
+                  },
+                  "qualificationExperience": {
+                    "type": "string",
+                    "title": "Qualification and Experience"
+                  },
+                  "boardPositions": {
+                    "type": "string",
+                    "title": "Details of Board and Committee positions held in other companies"
+                  }
+                }
+              }
+            },
+            "committees": {
+              "type": "array",
+              "title": "TCWG Committees",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "committeeName": {
+                    "type": "string",
+                    "title": "Committee Name"
+                  },
+                  "reason": {
+                    "type": "string",
+                    "title": "Reason / Notes"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "question3": {
+          "type": "object",
+          "title": "Question",
+          "properties": {
+            "details": {
+              "type": "array",
+              "title": "Details",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "particulars": {
+                    "type": "string",
+                    "title": "Particulars"
+                  },
+                  "guidance": {
+                    "type": "string",
+                    "title": "Guidance"
+                  },
+                  "response": {
+                    "type": "string",
+                    "title": "Response"
+                  }
+                }
+              }
+            },
+            "memberTable": {
+              "type": "array",
+              "title": "TCWG Members",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "slNo": {
+                    "type": "number",
+                    "title": "Sl. No"
+                  },
+                  "name": {
+                    "type": "string",
+                    "title": "Name of TCWG Member"
+                  },
+                  "designation": {
+                    "type": "string",
+                    "title": "Designation"
+                  },
+                  "committee": {
+                    "type": "string",
+                    "title": "Name of the relevant Committee of the Board of Directors to which this person is a member"
+                  },
+                  "qualificationExperience": {
+                    "type": "string",
+                    "title": "Qualification and Experience"
+                  },
+                  "boardPositions": {
+                    "type": "string",
+                    "title": "Details of Board and Committee positions held in other companies"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "question4": {
+          "type": "object",
+          "title": "Question",
+          "properties": {
+            "details": {
+              "type": "array",
+              "title": "Details",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "particulars": {
+                    "type": "string",
+                    "title": "Particulars"
+                  },
+                  "guidance": {
+                    "type": "string",
+                    "title": "Guidance"
+                  },
+                  "response": {
+                    "type": "string",
+                    "title": "Response"
+                  }
+                }
+              }
+            },
+            "memberTable": {
+              "type": "array",
+              "title": "TCWG Members",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "slNo": {
+                    "type": "number",
+                    "title": "Sl. No"
+                  },
+                  "name": {
+                    "type": "string",
+                    "title": "Name of TCWG Member"
+                  },
+                  "designation": {
+                    "type": "string",
+                    "title": "Designation"
+                  },
+                  "committee": {
+                    "type": "string",
+                    "title": "Name of the relevant Committee of the Board of Directors to which this person is a member"
+                  },
+                  "qualificationExperience": {
+                    "type": "string",
+                    "title": "Qualification and Experience"
+                  },
+                  "boardPositions": {
+                    "type": "string",
+                    "title": "Details of Board and Committee positions held in other companies"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "question5": {
+          "type": "object",
+          "title": "Question",
+          "properties": {
+            "details": {
+              "type": "array",
+              "title": "Details",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "particulars": {
+                    "type": "string",
+                    "title": "Particulars"
+                  },
+                  "guidance": {
+                    "type": "string",
+                    "title": "Guidance"
+                  },
+                  "response": {
+                    "type": "string",
+                    "title": "Response"
+                  }
+                }
+              }
+            },
+            "memberTable": {
+              "type": "array",
+              "title": "TCWG Members",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "slNo": {
+                    "type": "number",
+                    "title": "Sl. No"
+                  },
+                  "name": {
+                    "type": "string",
+                    "title": "Name of TCWG Member"
+                  },
+                  "designation": {
+                    "type": "string",
+                    "title": "Designation"
+                  },
+                  "committee": {
+                    "type": "string",
+                    "title": "Name of the relevant Committee of the Board of Directors to which this person is a member"
+                  },
+                  "qualificationExperience": {
+                    "type": "string",
+                    "title": "Qualification and Experience"
+                  },
+                  "boardPositions": {
+                    "type": "string",
+                    "title": "Details of Board and Committee positions held in other companies"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "management": {
+      "type": "object",
+      "properties": {
+        "question1": {
+          "type": "object",
+          "title": "Question",
+          "properties": {
+            "details": {
+              "type": "array",
+              "title": "Details",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "particulars": {
+                    "type": "string",
+                    "title": "Particulars"
+                  },
+                  "guidance": {
+                    "type": "string",
+                    "title": "Guidance"
+                  },
+                  "response": {
+                    "type": "string",
+                    "title": "Response"
+                  }
+                }
+              }
+            },
+            "managementTable": {
+              "type": "array",
+              "title": "Who is the Management? Capture details of Entity Personnel, charged with executive and operational responsibility for the conduct of the Entity’s operations",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "slNo": {
+                    "type": "number",
+                    "title": "Sl. No"
+                  },
+                  "name": {
+                    "type": "string",
+                    "title": "Name"
+                  },
+                  "designation": {
+                    "type": "string",
+                    "title": "Designation"
+                  },
+                  "functionResponsibility": {
+                    "type": "string",
+                    "title": "Function / Responsibility"
+                  },
+                  "qualificationExperience": {
+                    "type": "string",
+                    "title": "Qualification and Experience"
+                  },
+                  "boardCommitteePositions": {
+                    "type": "string",
+                    "title": "Board / Committee positions held in other companies"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "question2": {
+          "type": "object",
+          "title": "Question",
+          "properties": {
+            "details": {
+              "type": "array",
+              "title": "Details",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "particulars": {
+                    "type": "string",
+                    "title": "Particulars"
+                  },
+                  "guidance": {
+                    "type": "string",
+                    "title": "Guidance"
+                  },
+                  "response": {
+                    "type": "string",
+                    "title": "Response"
+                  }
+                }
+              }
+            },
+            "managementTable": {
+              "type": "array",
+              "title": "Who is the Management? Capture details of Entity Personnel, charged with executive and operational responsibility for the conduct of the Entity’s operations",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "slNo": {
+                    "type": "number",
+                    "title": "Sl. No"
+                  },
+                  "name": {
+                    "type": "string",
+                    "title": "Name"
+                  },
+                  "designation": {
+                    "type": "string",
+                    "title": "Designation"
+                  },
+                  "functionResponsibility": {
+                    "type": "string",
+                    "title": "Function / Responsibility"
+                  },
+                  "qualificationExperience": {
+                    "type": "string",
+                    "title": "Qualification and Experience"
+                  },
+                  "boardCommitteePositions": {
+                    "type": "string",
+                    "title": "Board / Committee positions held in other companies"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "question3": {
+          "type": "object",
+          "title": "Question",
+          "properties": {
+            "details": {
+              "type": "array",
+              "title": "Details",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "particulars": {
+                    "type": "string",
+                    "title": "Particulars"
+                  },
+                  "guidance": {
+                    "type": "string",
+                    "title": "Guidance"
+                  },
+                  "response": {
+                    "type": "string",
+                    "title": "Response"
+                  }
+                }
+              }
+            },
+            "managementTable": {
+              "type": "array",
+              "title": "Who is the Management? Capture details of Entity Personnel, charged with executive and operational responsibility for the conduct of the Entity’s operations",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "slNo": {
+                    "type": "number",
+                    "title": "Sl. No"
+                  },
+                  "name": {
+                    "type": "string",
+                    "title": "Name"
+                  },
+                  "designation": {
+                    "type": "string",
+                    "title": "Designation"
+                  },
+                  "functionResponsibility": {
+                    "type": "string",
+                    "title": "Function / Responsibility"
+                  },
+                  "qualificationExperience": {
+                    "type": "string",
+                    "title": "Qualification and Experience"
+                  },
+                  "boardCommitteePositions": {
+                    "type": "string",
+                    "title": "Board / Committee positions held in other companies"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "question4": {
+          "type": "object",
+          "title": "Question",
+          "properties": {
+            "details": {
+              "type": "array",
+              "title": "Details",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "particulars": {
+                    "type": "string",
+                    "title": "Particulars"
+                  },
+                  "guidance": {
+                    "type": "string",
+                    "title": "Guidance"
+                  },
+                  "response": {
+                    "type": "string",
+                    "title": "Response"
+                  }
+                }
+              }
+            },
+            "managementTable": {
+              "type": "array",
+              "title": "Who is the Management? Capture details of Entity Personnel, charged with executive and operational responsibility for the conduct of the Entity’s operations",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "slNo": {
+                    "type": "number",
+                    "title": "Sl. No"
+                  },
+                  "name": {
+                    "type": "string",
+                    "title": "Name"
+                  },
+                  "designation": {
+                    "type": "string",
+                    "title": "Designation"
+                  },
+                  "functionResponsibility": {
+                    "type": "string",
+                    "title": "Function / Responsibility"
+                  },
+                  "qualificationExperience": {
+                    "type": "string",
+                    "title": "Qualification and Experience"
+                  },
+                  "boardCommitteePositions": {
+                    "type": "string",
+                    "title": "Board / Committee positions held in other companies"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "recentChanges": {
+      "type": "object",
+      "properties": {
+        "question1": {
+          "type": "object",
+          "title": "Question",
+          "properties": {
+            "details": {
+              "type": "array",
+              "title": "Details",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "particulars": {
+                    "type": "string",
+                    "title": "Particulars"
+                  },
+                  "guidance": {
+                    "type": "string",
+                    "title": "Guidance"
+                  },
+                  "response": {
+                    "type": "string",
+                    "title": "Response"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "question2": {
+          "type": "object",
+          "title": "Question",
+          "properties": {
+            "details": {
+              "type": "array",
+              "title": "Details",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "particulars": {
+                    "type": "string",
+                    "title": "Particulars"
+                  },
+                  "guidance": {
+                    "type": "string",
+                    "title": "Guidance"
+                  },
+                  "response": {
+                    "type": "string",
+                    "title": "Response"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
